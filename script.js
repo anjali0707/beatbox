@@ -107,7 +107,7 @@ document.addEventListener('keydown', (event) => {
 		var audio = new Audio("Cymbal Suspended 2.mp3");
 		audio.currentTime = 0;
 		audio.play();
-		document.getElementById('74').style.backgroundColor = "purple";
+		document.getElementById('74').style.backgroundColor = "white";
 		document.getElementById('74').style.boxShadow = "0px 0px 20px 0px purple";
 		setTimeout(function() {
 			document.getElementById('74').style.backgroundColor = "transparent";
